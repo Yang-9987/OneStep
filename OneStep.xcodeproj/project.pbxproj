@@ -8,17 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		D66C199B2A1F900200150672 /* OneStepApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C199A2A1F900200150672 /* OneStepApp.swift */; };
-		D66C199D2A1F900200150672 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C199C2A1F900200150672 /* ContentView.swift */; };
+		D66C199D2A1F900200150672 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C199C2A1F900200150672 /* HomeView.swift */; };
 		D66C199F2A1F900300150672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D66C199E2A1F900300150672 /* Assets.xcassets */; };
 		D66C19A22A1F900300150672 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D66C19A12A1F900300150672 /* Preview Assets.xcassets */; };
+		D66C19A92A1F904700150672 /* CoreDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C19A82A1F904700150672 /* CoreDataProvider.swift */; };
+		D66C19AE2A1F90AA00150672 /* OneStepModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D66C19AC2A1F90AA00150672 /* OneStepModel.xcdatamodeld */; };
+		D66C19B12A1F938B00150672 /* MissionTag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C19B02A1F938B00150672 /* MissionTag+CoreDataClass.swift */; };
+		D66C19B32A1F93BB00150672 /* MissionTag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C19B22A1F93BB00150672 /* MissionTag+CoreDataProperties.swift */; };
+		D66C19B52A1F95CF00150672 /* AddNewTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C19B42A1F95CF00150672 /* AddNewTagView.swift */; };
+		D66C19B82A1F967E00150672 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C19B72A1F967E00150672 /* StringUtils.swift */; };
+		D66C19BA2A2039AB00150672 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C19B92A2039AB00150672 /* PreviewData.swift */; };
+		D66C19BC2A203BF400150672 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C19BB2A203BF400150672 /* ColorPickerView.swift */; };
+		D66C19BF2A204F5200150672 /* ConstantVal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C19BE2A204F5200150672 /* ConstantVal.swift */; };
+		D6BE75952A2C718F00CB037B /* MissionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BE75942A2C718F00CB037B /* MissionService.swift */; };
+		D6BE75982A2C741400CB037B /* UIColorTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BE75972A2C741400CB037B /* UIColorTransformer.swift */; };
+		D6BE759A2A2C781200CB037B /* MissionTagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BE75992A2C781200CB037B /* MissionTagsView.swift */; };
+		D6BE759C2A2C78CE00CB037B /* MissionTagsCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BE759B2A2C78CE00CB037B /* MissionTagsCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D66C19972A1F900200150672 /* OneStep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneStep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D66C199A2A1F900200150672 /* OneStepApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneStepApp.swift; sourceTree = "<group>"; };
-		D66C199C2A1F900200150672 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D66C199C2A1F900200150672 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D66C199E2A1F900300150672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D66C19A12A1F900300150672 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D66C19A82A1F904700150672 /* CoreDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProvider.swift; sourceTree = "<group>"; };
+		D66C19AD2A1F90AA00150672 /* OneStepModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OneStepModel.xcdatamodel; sourceTree = "<group>"; };
+		D66C19B02A1F938B00150672 /* MissionTag+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MissionTag+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D66C19B22A1F93BB00150672 /* MissionTag+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MissionTag+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D66C19B42A1F95CF00150672 /* AddNewTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTagView.swift; sourceTree = "<group>"; };
+		D66C19B72A1F967E00150672 /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		D66C19B92A2039AB00150672 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		D66C19BB2A203BF400150672 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		D66C19BE2A204F5200150672 /* ConstantVal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantVal.swift; sourceTree = "<group>"; };
+		D6BE75942A2C718F00CB037B /* MissionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionService.swift; sourceTree = "<group>"; };
+		D6BE75972A2C741400CB037B /* UIColorTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTransformer.swift; sourceTree = "<group>"; };
+		D6BE75992A2C781200CB037B /* MissionTagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionTagsView.swift; sourceTree = "<group>"; };
+		D6BE759B2A2C78CE00CB037B /* MissionTagsCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionTagsCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +64,9 @@
 				D66C19992A1F900200150672 /* OneStep */,
 				D66C19982A1F900200150672 /* Products */,
 			);
+			indentWidth = 4;
 			sourceTree = "<group>";
+			tabWidth = 4;
 		};
 		D66C19982A1F900200150672 /* Products */ = {
 			isa = PBXGroup;
@@ -51,10 +79,16 @@
 		D66C19992A1F900200150672 /* OneStep */ = {
 			isa = PBXGroup;
 			children = (
+				D6BE75962A2C735B00CB037B /* Transformer */,
 				D66C199A2A1F900200150672 /* OneStepApp.swift */,
-				D66C199C2A1F900200150672 /* ContentView.swift */,
-				D66C199E2A1F900300150672 /* Assets.xcassets */,
+				D6BE75932A2C717200CB037B /* Services */,
+				D66C19BD2A204F2500150672 /* Constant */,
+				D66C19B62A1F966B00150672 /* Utils */,
+				D66C19AF2A1F918D00150672 /* Models */,
+				D66C19AB2A1F906400150672 /* Views */,
+				D66C19AA2A1F904C00150672 /* Providers */,
 				D66C19A02A1F900300150672 /* Preview Content */,
+				D66C199E2A1F900300150672 /* Assets.xcassets */,
 			);
 			path = OneStep;
 			sourceTree = "<group>";
@@ -62,9 +96,72 @@
 		D66C19A02A1F900300150672 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				D66C19B92A2039AB00150672 /* PreviewData.swift */,
 				D66C19A12A1F900300150672 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D66C19AA2A1F904C00150672 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				D66C19AC2A1F90AA00150672 /* OneStepModel.xcdatamodeld */,
+				D66C19A82A1F904700150672 /* CoreDataProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		D66C19AB2A1F906400150672 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D66C199C2A1F900200150672 /* HomeView.swift */,
+				D66C19B42A1F95CF00150672 /* AddNewTagView.swift */,
+				D66C19BB2A203BF400150672 /* ColorPickerView.swift */,
+				D6BE75992A2C781200CB037B /* MissionTagsView.swift */,
+				D6BE759B2A2C78CE00CB037B /* MissionTagsCellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D66C19AF2A1F918D00150672 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D66C19B02A1F938B00150672 /* MissionTag+CoreDataClass.swift */,
+				D66C19B22A1F93BB00150672 /* MissionTag+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D66C19B62A1F966B00150672 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D66C19B72A1F967E00150672 /* StringUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D66C19BD2A204F2500150672 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				D66C19BE2A204F5200150672 /* ConstantVal.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		D6BE75932A2C717200CB037B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D6BE75942A2C718F00CB037B /* MissionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D6BE75962A2C735B00CB037B /* Transformer */ = {
+			isa = PBXGroup;
+			children = (
+				D6BE75972A2C741400CB037B /* UIColorTransformer.swift */,
+			);
+			path = Transformer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +234,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D66C199D2A1F900200150672 /* ContentView.swift in Sources */,
+				D66C19B52A1F95CF00150672 /* AddNewTagView.swift in Sources */,
+				D66C19B12A1F938B00150672 /* MissionTag+CoreDataClass.swift in Sources */,
+				D6BE759C2A2C78CE00CB037B /* MissionTagsCellView.swift in Sources */,
+				D66C19B32A1F93BB00150672 /* MissionTag+CoreDataProperties.swift in Sources */,
+				D66C19AE2A1F90AA00150672 /* OneStepModel.xcdatamodeld in Sources */,
+				D66C19BC2A203BF400150672 /* ColorPickerView.swift in Sources */,
+				D66C19B82A1F967E00150672 /* StringUtils.swift in Sources */,
+				D66C19BA2A2039AB00150672 /* PreviewData.swift in Sources */,
+				D66C199D2A1F900200150672 /* HomeView.swift in Sources */,
 				D66C199B2A1F900200150672 /* OneStepApp.swift in Sources */,
+				D6BE75982A2C741400CB037B /* UIColorTransformer.swift in Sources */,
+				D66C19A92A1F904700150672 /* CoreDataProvider.swift in Sources */,
+				D6BE75952A2C718F00CB037B /* MissionService.swift in Sources */,
+				D6BE759A2A2C781200CB037B /* MissionTagsView.swift in Sources */,
+				D66C19BF2A204F5200150672 /* ConstantVal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +449,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D66C19AC2A1F90AA00150672 /* OneStepModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D66C19AD2A1F90AA00150672 /* OneStepModel.xcdatamodel */,
+			);
+			currentVersion = D66C19AD2A1F90AA00150672 /* OneStepModel.xcdatamodel */;
+			path = OneStepModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D66C198F2A1F900200150672 /* Project object */;
 }
