@@ -19,12 +19,14 @@ struct MissionTagsView: View {
                 Text("No Tags found")
             } else {
                 ForEach(missionTags) { tag in
-                    VStack {
-                        MissionTagsCellView(missionTag: tag)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding([.leading], 10)
-                            .font(.title3)
-                        Divider()
+                    NavigationLink(value: tag) {
+                        VStack {
+                            MissionTagsCellView(missionTag: tag)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                                .padding([.leading], 10)
+                                .font(.title3)
+                            Divider()
+                        }
                     }
                 }
             }

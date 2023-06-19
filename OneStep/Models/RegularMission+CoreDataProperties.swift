@@ -22,7 +22,6 @@ extension RegularMission {
     @NSManaged public var createDate: Date?
     @NSManaged public var missionOrder: MissionType?
     @NSManaged public var statusFlag: Int64
-    @NSManaged public var tag: MissionTag?
     @NSManaged public var targetNum: Int64
     @NSManaged public var targetOrder: TargetType?
     @NSManaged public var targetTime: Double

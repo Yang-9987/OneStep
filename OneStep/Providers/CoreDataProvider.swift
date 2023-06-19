@@ -17,6 +17,9 @@ class CoreDataProvider {
 
         // register transformers
         ValueTransformer.setValueTransformer(UIColorTransformer(), forName: NSValueTransformerName("UIColorTransformer"))
+        ValueTransformer.setValueTransformer(MissionTypeTransformer(), forName: NSValueTransformerName("MissionTypeTransformer"))
+        ValueTransformer.setValueTransformer(TargetTypeTransformer(), forName: NSValueTransformerName("TargetTypeTransformer"))
+        ValueTransformer.setValueTransformer(UIImageTransformer(), forName: NSValueTransformerName("UIImageTransformer"))
 
         persistentContainer = NSPersistentContainer(name: "OneStepModel")
         persistentContainer.loadPersistentStores { description, error in

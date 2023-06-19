@@ -12,7 +12,6 @@ class MissionTypeTransformer: ValueTransformer {
 
     override func transformedValue(_ value: Any?) -> Any? {
 
-
         guard let missionType = value as? MissionType else { return nil }
 
         do {

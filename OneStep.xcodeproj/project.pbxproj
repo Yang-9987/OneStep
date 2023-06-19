@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D61B586E2A3B38C0002150C7 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61B586D2A3B38C0002150C7 /* TimerView.swift */; };
+		D61B58702A3B3903002150C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61B586F2A3B3903002150C7 /* ContentView.swift */; };
 		D648E5302A2F24BF001DF9A0 /* OneStepAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D648E52F2A2F24BF001DF9A0 /* OneStepAApp.swift */; };
 		D648E5322A2F24BF001DF9A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D648E5312A2F24BF001DF9A0 /* ContentView.swift */; };
 		D648E5342A2F24C0001DF9A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D648E5332A2F24C0001DF9A0 /* Assets.xcassets */; };
@@ -24,18 +26,23 @@
 		D66C19BA2A2039AB00150672 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C19B92A2039AB00150672 /* PreviewData.swift */; };
 		D66C19BC2A203BF400150672 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C19BB2A203BF400150672 /* ColorPickerView.swift */; };
 		D66C19BF2A204F5200150672 /* ConstantVal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C19BE2A204F5200150672 /* ConstantVal.swift */; };
+		D6AD2ECC2A38ADB400895486 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AD2ECB2A38ADB400895486 /* TimerModel.swift */; };
 		D6B18AD92A30C274001C4EE0 /* RegularMission+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B18AD72A30C274001C4EE0 /* RegularMission+CoreDataClass.swift */; };
 		D6B18ADA2A30C274001C4EE0 /* RegularMission+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B18AD82A30C274001C4EE0 /* RegularMission+CoreDataProperties.swift */; };
 		D6B18ADC2A30C2FC001C4EE0 /* AdditionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B18ADB2A30C2FC001C4EE0 /* AdditionalType.swift */; };
 		D6B18ADE2A30C50E001C4EE0 /* MissionTypeTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B18ADD2A30C50E001C4EE0 /* MissionTypeTransformer.swift */; };
 		D6B18AE02A30C56E001C4EE0 /* TargetTypeTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B18ADF2A30C56E001C4EE0 /* TargetTypeTransformer.swift */; };
+		D6B18E3D2A3311620075F5CA /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B18E3C2A3311620075F5CA /* TimeView.swift */; };
 		D6BE75952A2C718F00CB037B /* MissionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BE75942A2C718F00CB037B /* MissionService.swift */; };
 		D6BE75982A2C741400CB037B /* UIColorTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BE75972A2C741400CB037B /* UIColorTransformer.swift */; };
 		D6BE759A2A2C781200CB037B /* MissionTagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BE75992A2C781200CB037B /* MissionTagsView.swift */; };
 		D6BE759C2A2C78CE00CB037B /* MissionTagsCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BE759B2A2C78CE00CB037B /* MissionTagsCellView.swift */; };
+		D6BEB31E2A408E2500197199 /* UIImageTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BEB31D2A408E2500197199 /* UIImageTransformer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D61B586D2A3B38C0002150C7 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		D61B586F2A3B3903002150C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D648E52D2A2F24BF001DF9A0 /* OneStepA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneStepA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D648E52F2A2F24BF001DF9A0 /* OneStepAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneStepAApp.swift; sourceTree = "<group>"; };
 		D648E5312A2F24BF001DF9A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,15 +62,18 @@
 		D66C19B92A2039AB00150672 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		D66C19BB2A203BF400150672 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 		D66C19BE2A204F5200150672 /* ConstantVal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantVal.swift; sourceTree = "<group>"; };
+		D6AD2ECB2A38ADB400895486 /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
 		D6B18AD72A30C274001C4EE0 /* RegularMission+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RegularMission+CoreDataClass.swift"; sourceTree = "<group>"; };
 		D6B18AD82A30C274001C4EE0 /* RegularMission+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RegularMission+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		D6B18ADB2A30C2FC001C4EE0 /* AdditionalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalType.swift; sourceTree = "<group>"; };
 		D6B18ADD2A30C50E001C4EE0 /* MissionTypeTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionTypeTransformer.swift; sourceTree = "<group>"; };
 		D6B18ADF2A30C56E001C4EE0 /* TargetTypeTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetTypeTransformer.swift; sourceTree = "<group>"; };
+		D6B18E3C2A3311620075F5CA /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
 		D6BE75942A2C718F00CB037B /* MissionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionService.swift; sourceTree = "<group>"; };
 		D6BE75972A2C741400CB037B /* UIColorTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTransformer.swift; sourceTree = "<group>"; };
 		D6BE75992A2C781200CB037B /* MissionTagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionTagsView.swift; sourceTree = "<group>"; };
 		D6BE759B2A2C78CE00CB037B /* MissionTagsCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionTagsCellView.swift; sourceTree = "<group>"; };
+		D6BEB31D2A408E2500197199 /* UIImageTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageTransformer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,10 +137,12 @@
 			isa = PBXGroup;
 			children = (
 				D66C199A2A1F900200150672 /* OneStepApp.swift */,
+				D61B586F2A3B3903002150C7 /* ContentView.swift */,
 				D6BE75962A2C735B00CB037B /* Transformer */,
 				D6BE75932A2C717200CB037B /* Services */,
 				D66C19BD2A204F2500150672 /* Constant */,
 				D66C19B62A1F966B00150672 /* Utils */,
+				D6AD2ECA2A38A2BC00895486 /* ViewModel */,
 				D66C19AF2A1F918D00150672 /* Models */,
 				D66C19AB2A1F906400150672 /* Views */,
 				D66C19AA2A1F904C00150672 /* Providers */,
@@ -166,6 +178,8 @@
 				D66C19BB2A203BF400150672 /* ColorPickerView.swift */,
 				D6BE75992A2C781200CB037B /* MissionTagsView.swift */,
 				D6BE759B2A2C78CE00CB037B /* MissionTagsCellView.swift */,
+				D6B18E3C2A3311620075F5CA /* TimeView.swift */,
+				D61B586D2A3B38C0002150C7 /* TimerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -198,6 +212,14 @@
 			path = Constant;
 			sourceTree = "<group>";
 		};
+		D6AD2ECA2A38A2BC00895486 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D6AD2ECB2A38ADB400895486 /* TimerModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		D6BE75932A2C717200CB037B /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +234,7 @@
 				D6BE75972A2C741400CB037B /* UIColorTransformer.swift */,
 				D6B18ADD2A30C50E001C4EE0 /* MissionTypeTransformer.swift */,
 				D6B18ADF2A30C56E001C4EE0 /* TargetTypeTransformer.swift */,
+				D6BEB31D2A408E2500197199 /* UIImageTransformer.swift */,
 			);
 			path = Transformer;
 			sourceTree = "<group>";
@@ -327,14 +350,19 @@
 			files = (
 				D66C19B52A1F95CF00150672 /* AddNewTagView.swift in Sources */,
 				D66C19B12A1F938B00150672 /* MissionTag+CoreDataClass.swift in Sources */,
+				D61B58702A3B3903002150C7 /* ContentView.swift in Sources */,
+				D6BEB31E2A408E2500197199 /* UIImageTransformer.swift in Sources */,
 				D6BE759C2A2C78CE00CB037B /* MissionTagsCellView.swift in Sources */,
 				D66C19B32A1F93BB00150672 /* MissionTag+CoreDataProperties.swift in Sources */,
 				D66C19AE2A1F90AA00150672 /* OneStepModel.xcdatamodeld in Sources */,
 				D6B18ADA2A30C274001C4EE0 /* RegularMission+CoreDataProperties.swift in Sources */,
 				D66C19BC2A203BF400150672 /* ColorPickerView.swift in Sources */,
 				D66C19B82A1F967E00150672 /* StringUtils.swift in Sources */,
+				D6B18E3D2A3311620075F5CA /* TimeView.swift in Sources */,
 				D66C19BA2A2039AB00150672 /* PreviewData.swift in Sources */,
 				D66C199D2A1F900200150672 /* HomeView.swift in Sources */,
+				D61B586E2A3B38C0002150C7 /* TimerView.swift in Sources */,
+				D6AD2ECC2A38ADB400895486 /* TimerModel.swift in Sources */,
 				D6B18ADC2A30C2FC001C4EE0 /* AdditionalType.swift in Sources */,
 				D6B18AD92A30C274001C4EE0 /* RegularMission+CoreDataClass.swift in Sources */,
 				D66C199B2A1F900200150672 /* OneStepApp.swift in Sources */,
